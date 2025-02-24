@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+docs/approvals/*.md
+docs/business_plans/*.txt 

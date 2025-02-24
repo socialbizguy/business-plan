@@ -1,0 +1,10 @@
+crewai
+python-dotenv
+deepseek-sdk
+hubspot-api-client
+stripe
+xero-python
+selenium
+webdriver-manager
+exchangelib
+msal

@@ -1,0 +1,95 @@
+### PROJECT REQUIREMENTS
+1. Infrastructure:
+- Docker container deployment
+- Environment variables stored in .env
+- Git repository managed
+- LimaCTL runtime environment
+
+2. AI Preferences:
+- Prefer DeepSeek over OpenAI for cost efficiency
+- Use crewai framework for agent collaboration
+
+3. Security:
+- API keys must use environment variables
+- Financial systems integration (Xero/Stripe) requires 2FA
+
+4. Process Flow:
+- Phase 1: SLT collaboration → Business plan creation
+-   - Validation: CEO/CFO/CTO sign-off required
+- Phase 2: Technical infrastructure setup
+-   - Dependency: Approved business plan
+- Phase 3: Team-specific implementation
+-   - Validation: CTO/COO integration testing
+
+5. File Structure:
+- /docs/business_plans/leadership_plan.txt (Initial SLT output)
+- /docs/approvals/slt_signoff.md (Phase gate approvals)
+- /src/crew_implementation/ (Codebase)
+- /env_configs/ (Environment templates)
+
+### TECH STACK PRIORITIES
+1. Core Technologies:
+- Python (primary language)
+- Docker (containerization)
+- CrewAI (agent framework)
+- Version Control: Git flow branching model
+
+2. CRM & Payments:
+- HubSpot (Website/CRM/Marketing/Sales)
+- Stripe (Payment processing)
+- Xero (Accounting)
+
+3. Social & Productivity:
+- Microsoft 365 (Teams, Office, Events)
+- LinkedIn/TikTok/Instagram/Facebook
+- Canva (Design)
+
+### BUSINESS CONTEXT
+Legacy Website: https://www.leadershipdestination.com
+New Direction Focus:
+- AI-powered leadership development
+- Micro-learning formats
+- Corporate team workshops
+- Global virtual coaching
+
+### AI CREW STRUCTURE
+🧑💼 Senior Leadership Team (Collaborative)
+- CEO (Strategic vision)
+- CFO (Financial oversight) 
+- COO (Operations)
+- CTO (Tech leadership)
+- CMO (Marketing strategy)
+- VP Sales (Revenue generation)
+++ Initial Task: 
+++ • Collaborative business plan creation
+++ • Financial viability analysis
+++ • Market entry strategy
+++ • Output: leadership_plan.txt
+++ • Approval Process:
+++   - Draft → leadership_plan_v1.txt
+++   - Review cycle (24hr max)
+++   - Final sign-off in /docs/approvals
+
+📈 Marketing Team (Collaborative)
+- CMO (Oversight)
+  - Market Research: 
+    • Trend analysis
+    • Competitor monitoring
+  - Digital Marketing:
+    • Campaign execution
+    • SEO/SEM
+  - Social Media:
+    • Content creation
+    • Community management
+  - Content Marketing:
+    • Blog/Video production
+    • Lead magnets
+
+💻 Technical Team (Collaborative)
+- CTO (Oversight)
+  - UX Designer (Interface)
+  - Tester (QA)
+  - DevOps (Infrastructure)
+  - Developer (Core systems)
+  - Full Stack (Integration)
+  - Business Analyst (Requirements)
